@@ -1,0 +1,12 @@
+curl "https://www.googleapis.com/civicinfo/v2/representatives?key=<YOUR_API_KEY>&address=1380%20S%20Garfield%20Ave%20Monterey%20Park%20City%20CA"
+
+https://www.googleapis.com/civicinfo/v2/representatives?key=<YOUR_API_KEY>&address=1380%20S%20Garfield%20Ave%20Monterey%20Park%20City%20CA&fields=divisions,normalizedInput
+
+test:
+1380 S Garfield Ave
+Monterey Park CA
+
+
+usage:
+
+$ go run main.go <YOUR_API_KEY> districtsTest.txt > output.json

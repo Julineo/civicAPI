@@ -1,0 +1,703 @@
+[
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "parseError",
+    "message": "Failed to parse address"
+   }
+  ],
+  "code": 400,
+  "message": "Failed to parse address"
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "1 Appian Way",
+  "city": "South San Francisco",
+  "state": "CA",
+  "zip": "94080"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  "ocd-division/country:us/state:ca/cd:14": {
+   "name": "California's 14th congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:san_mateo": {
+   "name": "San Mateo County",
+   "officeIndices": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:san_mateo/council_district:5": {
+   "name": "San Mateo County CA Board of Supervisors District 5",
+   "officeIndices": [
+    15
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:san_mateo/school_district:south_san_francisco_unified": {
+   "name": "south san francisco unified"
+  },
+  "ocd-division/country:us/state:ca/place:south_san_francisco": {
+   "name": "South San Francisco city"
+  },
+  "ocd-division/country:us/state:ca/sldl:22": {
+   "name": "California Assembly district 22",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldu:13": {
+   "name": "California State Senate district 13",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "1 Daniel Burnham Court",
+  "city": "San Francisco",
+  "state": "CA",
+  "zip": "94109"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  "ocd-division/country:us/state:ca/cd:12": {
+   "name": "California's 12th congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:san_francisco": {
+   "name": "San Francisco County",
+   "alsoKnownAs": [
+    "ocd-division/country:us/state:ca/place:san_francisco"
+   ],
+   "officeIndices": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:san_francisco/council_district:2": {
+   "name": "San Francisco CA city-county council district 2",
+   "officeIndices": [
+    8
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldl:17": {
+   "name": "California Assembly district 17",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldu:11": {
+   "name": "California State Senate district 11",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "1 Frustuck Avenue",
+  "city": "Fairfax",
+  "state": "CA",
+  "zip": "94930"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "ocd-division/country:us/state:ca/cd:2": {
+   "name": "California's 2nd congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:marin": {
+   "name": "Marin County",
+   "officeIndices": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:marin/council_district:2": {
+   "name": "Marin County CA Board of Supervisors District 2",
+   "officeIndices": [
+    12
+   ]
+  },
+  "ocd-division/country:us/state:ca/county:marin/school_district:ross_elementary": {
+   "name": "ross elementary"
+  },
+  "ocd-division/country:us/state:ca/place:fairfax": {
+   "name": "Fairfax town"
+  },
+  "ocd-division/country:us/state:ca/sldl:10": {
+   "name": "California Assembly district 10",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldu:2": {
+   "name": "California State Senate district 2",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "",
+  "city": "Redding",
+  "state": "CA",
+  "zip": "96099"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "",
+  "city": "Mill Valley",
+  "state": "CA",
+  "zip": "94942"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "",
+  "city": "San Rafael",
+  "state": "CA",
+  "zip": "94913"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "",
+  "city": "Eureka",
+  "state": "CA",
+  "zip": "95503"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "401A",
+  "city": "Williamson",
+  "state": "WV",
+  "zip": "25661"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wv": {
+   "name": "West Virginia",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "4525 290th Avenue",
+  "city": "Maiden Rock",
+  "state": "WI",
+  "zip": "54750"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wi": {
+   "name": "Wisconsin",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  "ocd-division/country:us/state:wi/cd:3": {
+   "name": "Wisconsin's 3rd congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce": {
+   "name": "Pierce County",
+   "officeIndices": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/council_district:17": {
+   "name": "Pierce County Supervisor District 17",
+   "officeIndices": [
+    8
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/place:salem": {
+   "name": "Salem town"
+  },
+  "ocd-division/country:us/state:wi/county:pierce/school_district:ellsworth_community_school_district": {
+   "name": "ellsworth community school district"
+  },
+  "ocd-division/country:us/state:wi/court_of_appeals:3": {
+   "name": "WI State Court of Appeals - District III (3)"
+  },
+  "ocd-division/country:us/state:wi/sldl:93": {
+   "name": "Wisconsin Assembly district 93",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:wi/sldu:31": {
+   "name": "Wisconsin State Senate district 31",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "7402 Wisconsin 65",
+  "city": "Beldenville",
+  "state": "WI",
+  "zip": "54003"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wi": {
+   "name": "Wisconsin",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "ocd-division/country:us/state:wi/cd:3": {
+   "name": "Wisconsin's 3rd congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce": {
+   "name": "Pierce County",
+   "officeIndices": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/council_district:13": {
+   "name": "Pierce County Supervisor District 13",
+   "officeIndices": [
+    19
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/place:trimbelle": {
+   "name": "Trimbelle town"
+  },
+  "ocd-division/country:us/state:wi/county:pierce/school_district:ellsworth_community_school_district": {
+   "name": "ellsworth community school district"
+  },
+  "ocd-division/country:us/state:wi/court_of_appeals:3": {
+   "name": "WI State Court of Appeals - District III (3)"
+  },
+  "ocd-division/country:us/state:wi/sldl:93": {
+   "name": "Wisconsin Assembly district 93",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:wi/sldu:31": {
+   "name": "Wisconsin State Senate district 31",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "7766 Perkinstown Avenue",
+  "city": "Medford",
+  "state": "WI",
+  "zip": "54451"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wi": {
+   "name": "Wisconsin",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "ocd-division/country:us/state:wi/cd:7": {
+   "name": "Wisconsin's 7th congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:taylor": {
+   "name": "Taylor County",
+   "officeIndices": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:taylor/council_district:7": {
+   "name": "Taylor County Supervisor District 7",
+   "officeIndices": [
+    12
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:taylor/place:hammel": {
+   "name": "Hammel town"
+  },
+  "ocd-division/country:us/state:wi/county:taylor/school_district:medford_area_public_school_district": {
+   "name": "medford area public school district"
+  },
+  "ocd-division/country:us/state:wi/court_of_appeals:3": {
+   "name": "WI State Court of Appeals - District III (3)"
+  },
+  "ocd-division/country:us/state:wi/sldl:87": {
+   "name": "Wisconsin Assembly district 87",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:wi/sldu:29": {
+   "name": "Wisconsin State Senate district 29",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{
+ "normalizedInput": {
+  "line1": "9732 570th Avenue",
+  "city": "Ellsworth",
+  "state": "WI",
+  "zip": "54011"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wi": {
+   "name": "Wisconsin",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "ocd-division/country:us/state:wi/cd:3": {
+   "name": "Wisconsin's 3rd congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce": {
+   "name": "Pierce County",
+   "officeIndices": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/council_district:13": {
+   "name": "Pierce County Supervisor District 13",
+   "officeIndices": [
+    19
+   ]
+  },
+  "ocd-division/country:us/state:wi/county:pierce/place:oak_grove": {
+   "name": "Oak Grove town"
+  },
+  "ocd-division/country:us/state:wi/county:pierce/school_district:prescott_school_district": {
+   "name": "prescott school district"
+  },
+  "ocd-division/country:us/state:wi/court_of_appeals:3": {
+   "name": "WI State Court of Appeals - District III (3)"
+  },
+  "ocd-division/country:us/state:wi/sldl:93": {
+   "name": "Wisconsin Assembly district 93",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:wi/sldu:31": {
+   "name": "Wisconsin State Senate district 31",
+   "officeIndices": [
+    6
+   ]
+  }
+ }
+}
+
+,
+{}]
