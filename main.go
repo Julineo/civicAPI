@@ -8,6 +8,7 @@ import (
 	"net/url"
 	"log"
 	"io/ioutil"
+	//"strings"
 )
 
 func main() {
@@ -24,12 +25,11 @@ func main() {
 	scanner := bufio.NewScanner(file)
 	address := ""
 
-	fmt.Println("[")
 	for scanner.Scan() {
 		address = scanner.Text()
 
 
-		//fmt.Printf("%v\n", address)
+		fmt.Printf("%v", address)
 
 		if err := scanner.Err(); err != nil {
 			log.Fatal(err)
@@ -47,9 +47,7 @@ func main() {
 			log.Fatal(err)
 		}
 		fmt.Printf("%s\n", rs)
-		fmt.Println(",")
 		resp.Body.Close()
 	}
-	fmt.Println("{}]")
 }
 
