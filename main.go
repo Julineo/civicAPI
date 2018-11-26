@@ -73,7 +73,7 @@ func main() {
 		}
 		fmt.Println(string(rs[s+1 : e]))
 		resp.Body.Close()
-		time.Sleep(1 * time.Second)
+		time.Sleep(100 * time.Millisecond)
 	}
 }
 
