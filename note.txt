@@ -10,3 +10,6 @@ Monterey Park CA
 usage:
 
 $ go run main.go <YOUR_API_KEY> districtsTest.txt > output.json
+
+
+curl "https://www.googleapis.com/civicinfo/v2/representatives?key=<YOUR_API_KEY>&address=6817%20MARKWOOD%20DR%20N%20GOLDEN%20VALLEY%20MN%2055427"

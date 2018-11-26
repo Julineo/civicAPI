@@ -9,6 +9,7 @@ import (
 	"log"
 	"io/ioutil"
 	"strings"
+	"time"
 )
 
 func main() {
@@ -32,7 +33,7 @@ func main() {
 		address = scanner.Text()
 
 
-		fmt.Printf("%v, ", address)
+		fmt.Printf("%v,", address)
 
 		if err := scanner.Err(); err != nil {
 			log.Fatal(err)
@@ -54,7 +55,7 @@ func main() {
 		srs := string(rs)
 		t := strings.Index(srs, "congress")
 		if t == -1 {
-			fmt.Println("not found")
+			fmt.Println("404")
 			continue
 		}
 		s, e := -1, -1
@@ -72,6 +73,7 @@ func main() {
 		}
 		fmt.Println(string(rs[s+1 : e]))
 		resp.Body.Close()
+		time.Sleep(1 * time.Second)
 	}
 }
 
